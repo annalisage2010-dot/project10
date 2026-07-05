@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Ice Cream Shop Menu</title>
+  <style>
+    body {
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: #f3e8c4;
+      text-align: center;
+      color: #ec8c85;
+    }
+    h1 {
+      color: #f3aeae;
+      font-size: 38px;
+    }
+    h1 + p {
+      color: #e0cff0;
+      font-weight: bold;
+      background-color: #ed65a9;
+      border-radius: 18px;
+      font-size: larger;
+    }
+    .shop-description::first-letter {
+      font-size: 30px;
+      color: hsl(198, 71%, 64%);
+      font-weight: bold;
+    }
+    .shop-description{
+        font-size: 23px;
+    }
+    .menu-box {
+      width: 420px;
+      background-color: rgb(170, 241, 240);
+      border: 3px solid #f1c9dd;
+      border-radius: 15px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    ul {
+      padding: 0;
+    }
+    ul > li {
+      list-style: none;
+      background-color: #f4ffe0;
+      color: #e86ec5;
+      font-size: 22px;
+      font-weight: bold;
+      margin: 15px;
+      padding: 18px;
+      border-radius: 10px;
+      border: 2px solid #f57c8e;
+    }
+    ul > li:nth-child(3) {
+      background-color: #f8f091;
+      color: #e4a668;
+      border: 3px solid #e6cfa4;
+    }
+    ul > li:hover {
+      background-color: #a1abec;
+      color: rgb(212, 224, 238);
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+    button {
+      background-color: #d9abc2;
+      color: rgba(11, 0, 0, 0.945);
+      border: none;
+      border-radius: 40px;
+      padding: 20px 29px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #c7afdd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sweety ice cream shop</h1>
+  <p>Ice cream meant for your taste buds!</p>
+  <p class="shop-description">
+    We serve all types of ice cream flavours.
+  </p>
+  <div class="menu-box">
+    <h2>Today's Ice Cream Flavours</h2>
+    <ul>
+      <li>Chocolate fudge</li>
+      <li>Blueberry punch</li>
+      <li>Red velvet icecream - Today's Special</li>
+      <li>Vanilla & strawberry delight</li>
+      <li>Blackcurrent</li>
+    </ul>
+    <button>Order Now</button>
+  </div>
+</body>
+</html>
